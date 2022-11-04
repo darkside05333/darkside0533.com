@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+header div{
+    float: left;
+
+}
+
+header .logo{
+    margin-left: 200px ;
+    padding: 20px;
+
+}
+
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 1opx;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover{
+
+    color: blue;
+    
+}
+
+/*section one start*/
+
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+
+}
+
+
+.half1, .half2{
+    width: 50%;
+} 
+
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.half1 h3{
+    font-weight: normal;
+}
+
+.half1 h1{
+    font-size: 60px;
+}
+
+.half1 p{
+    color: rgba(78, 78, 78);
+}
+
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+
+}
+
+.half1 input:hover{
+    box-shadow: 5px 10px 30px  rgb(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+
+
+
+
+.section2{width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.section2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.po1{
+    padding-left: 150px;
+}
+
+.po2 h3{
+   font-weight: normal;
+   color: rgba(0, 0, 0,0.7);
+   font-size: 50px;
+}
+
+.po2 h1{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.po2 p{
+    font-size: 12px;
+    color: rgba(0, 0, 0,0.6);
+    width: 70%;
+
+}
+
+.po2 input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color: white;
+    background-color: #8393ff;
+    border: none;
+}
+
+.po2 input:hover{
+    box-shadow: 5px 10px 30px  rgb(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+
+/*sec 2 end*/
+
+/*sec 3 starts.*/
+
+.sec3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.hh1 h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+
+.hh1 p{
+    width: 670px;
+    color: rgba(0, 0, 0,0.6);
+    margin: 0 auto;
+}
+
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;;
+
+}
+
+.ser1 , .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ser1 div , .ser2 div 
+{   width: 32%;
+    float:left ;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+
+.ser2{
+    padding-top: 30px;
+}
+
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0,0.7);
+}
+
+
+.service h1{
+    color: rgba(0, 0, 0,0.9);
+}
+}
+
+.service p{
+    color: rgba(0, 0, 0,0.6);
+}
+
+.ser1 div:hover{
+    background-color: #8393ff;
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+
+.ser1 div:hover i{
+    color: white;
+}
+
+.ser1 div:hover h1{
+    color: white;
+}
+.ser2 div:hover{
+    background-color: #8393ff;
+}
+
+.ser2 div:hover p{
+    color: white;
+}
+
+.ser2 div:hover i{
+    color: white;
+}
+
+.ser2 div:hover h1{
+    color: white;
+}
+
+/*sec 3 end.*/
+/*sec 4 starts.*/
+
+.sec4{
+    width: 100%;
+    height: 300px;
+    background-color: #8393ff;
+}
+
+.sec4 div {
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.sec4 h1,p{
+    text-align: center;
+    color: white;
+}
+
+.sec4 h1{
+    font-size: 45px;
+    line-height: 10px;
+}
